@@ -11,14 +11,15 @@
     </ProjectConfiguration>
   </ItemGroup>
   <ItemGroup>
+    <ClCompile Include="demon.cpp" />
     <ClCompile Include="game.cpp" />
-    <ClCompile Include="level.cpp" />
     <ClCompile Include="main.cpp" />
     <ClCompile Include="Point.cpp" />
   </ItemGroup>
   <ItemGroup>
+    <ClInclude Include="character.h" />
+    <ClInclude Include="demon.h" />
     <ClInclude Include="game.h" />
-    <ClInclude Include="level.h" />
     <ClInclude Include="Point.h" />
   </ItemGroup>
   <ItemGroup>
